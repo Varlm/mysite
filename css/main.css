@@ -34,7 +34,6 @@ html {
     scroll-behavior: smooth; 
 }
 
-
 .images {
     max-width: 67%;  
     height: 200px; 
@@ -43,6 +42,7 @@ html {
     align-items: center;
 
 }
+
 .images1 {
     max-width: 24.3%;  
     height: 24.3%; 
@@ -59,7 +59,6 @@ html {
     max-width: 78%; 
     margin: 20px auto; /
 }
-
 
 .container {
     display: flex;
@@ -96,13 +95,13 @@ footer{
     align-items: stretch;
 }
 
-
 .main-image {
     width: 55%;
     height: auto;
     margin: 20px;
     border-radius: 16px;   
 }
+
 .good_image {
     width: 20%;
     height: 35%;
@@ -126,9 +125,6 @@ footer{
     border-radius: 16px;
 }
 
-
-
-
 .image-container img {
     flex: 1 1 30%;
     margin: 15px;
@@ -149,24 +145,24 @@ footer{
 .image-container img:hover {
     transform: scale(1.1); 
 }
+
 @media (min-width: 460px) and (max-width: 1600px) {
     .module {
         width: 100%;
     }
 }
+
 @media (min-width: 481px) and (max-width: 660px) {
     .module {
         width: 100%;
     }
 }
 
-
 @media (max-width: 600px) {
     .image-container img{
         width: 100%;
     }
 }
-
 
 .images {
     max-width: 45%; 
