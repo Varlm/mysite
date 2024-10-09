@@ -36,19 +36,30 @@ html {
 
 
 .images {
-    max-width: 400px;  
-    height: 300px; 
+    max-width: 45%;  
+    height: auto; 
     border-radius: 10px; 
     margin: 5px; 
     align-items: center;
+    aspect-ratio: 16 / 9;
 }
 .images1 {
-    max-width: 300px;  
-    height: 300px; 
+    max-width: 25.5%;  
+    height: 25.5%; 
+    aspect-ratio: 1 / 1;
     border-radius: 10px; 
     margin: 5px; 
     align-items: center;
 }
+
+.image-container {
+    display: flex;
+    max-width:78%;
+    justify-content: space-between;
+    
+    margin: 20px 0;
+}
+
 
 .container {
     display: flex;
@@ -80,19 +91,24 @@ footer{
     background-color: rgba(220, 28, 82, 0.622);
 }
 
+.main-wrapper {
+    display: flex; 
+    align-items: stretch;
+}
+
+
 .main-image {
     width: 55%;
-    height: 300px;
+    height: auto;
     margin: 20px;
-    border-radius: 16px;
-    
-    
+    border-radius: 16px;   
 }
 .good_image {
     width: 20%;
-    height: 300px;
+    height: 35%;
     margin: 20px;
     border-radius: 16px;
+    
 }
 
 .image-wrapper {
@@ -103,7 +119,8 @@ footer{
 
 .three_image {
     width: 40%;
-    height: 300px;
+    height: 25%;
+    aspect-ratio: 16 / 9;
     margin: 20px auto;
     
     border-radius: 16px;
@@ -111,12 +128,6 @@ footer{
 
 
 
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 0;
-}
 
 .image-container img {
     flex: 1 1 30%;
@@ -149,10 +160,19 @@ footer{
     }
 }
 
+
 @media (max-width: 600px) {
     .image-container img{
         width: 100%;
     }
+}
+
+
+.images {
+    max-width: 45%; 
+    height: 60%; 
+    border-radius: 10px; 
+    margin: 5px; 
 }
 
 a:link {
