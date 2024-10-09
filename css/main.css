@@ -36,16 +36,16 @@ html {
 
 
 .images {
-    max-width: 45%;  
-    height: auto; 
+    max-width: 67%;  
+    height: 200px; 
     border-radius: 10px; 
     margin: 5px; 
     align-items: center;
-    aspect-ratio: 16 / 9;
+
 }
 .images1 {
-    max-width: 25.5%;  
-    height: 25.5%; 
+    max-width: 24.3%;  
+    height: 24.3%; 
     aspect-ratio: 1 / 1;
     border-radius: 10px; 
     margin: 5px; 
@@ -54,10 +54,10 @@ html {
 
 .image-container {
     display: flex;
-    max-width:78%;
-    justify-content: space-between;
-    
-    margin: 20px 0;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 78%; 
+    margin: 20px auto; /
 }
 
 
@@ -176,9 +176,8 @@ footer{
 }
 
 a:link {
-    color: rgb(2, 0, 0); /* Цвет для обычных ссылок */
+    color: rgb(147, 33, 33); 
 }
 
 a:visited {
-    color: rgb(160, 48, 67); /* Цвет для посещённых ссылок */
-}
+    color: rgb(160, 48, 67); }
